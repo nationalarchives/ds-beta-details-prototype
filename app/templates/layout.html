@@ -3,6 +3,8 @@
 {% include 'head.html' %}
 <body>
     {% include 'header.html' %}
+    {% include 'includes/hierarchy.html' %}
+    {% include 'includes/summary.html' %}
     {% block content %}
     {% endblock %}
     <script src="{{ url_for('static', filename='scripts/dist/index.js') }}"></script>
