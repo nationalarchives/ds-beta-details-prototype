@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'redactedregular';
+  src: url('../../fonts/RedactedScript-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .logo {
   margin-top: 2em;
   width: 4em;
@@ -7,18 +14,30 @@ header {
   background-color: #BFC7D9;
 }
 
+.content_block {
+  outline: 1px solid white;
+}
+
 .hierarchy {
-  background-color: #141C26;
+  background-color: #85a6e3;
 }
 
 .summary {
-  background-color: #3F4B59;
+  background-color: #9ab8d8;
 }
 
 .title {
-  background-color: #6D7B8C;
+  background-color: #b1c8de;
 }
 
 .image_viewer_call_to_action {
   background-color: #8694A6;
+}
+
+.location {
+  background-color: #BFC7D9;
+}
+
+p {
+  font-family: 'redactedregular';
 }
