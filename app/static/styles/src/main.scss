@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'redactedregular';
+  font-family: 'redacted-script';
   src: url('../../fonts/RedactedScript-Regular.ttf');
   font-weight: normal;
   font-style: normal;
@@ -10,34 +10,26 @@
   width: 4em;
 }
 
-header {
-  background-color: #BFC7D9;
-}
-
 .content_block {
-  outline: 1px solid white;
+  outline: 1px solid #fff;
+  background-color: #dbe3f5;
+  position: relative;
+  min-height: 3em;
+
+  span.label {
+    background-color: #696e78;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 0.5em;
+  }
+
+  a {
+    text-decoration: underline;
+  }
 }
 
-.hierarchy {
-  background-color: #85a6e3;
-}
-
-.summary {
-  background-color: #9ab8d8;
-}
-
-.title {
-  background-color: #b1c8de;
-}
-
-.image_viewer_call_to_action {
-  background-color: #8694A6;
-}
-
-.location {
-  background-color: #BFC7D9;
-}
-
-p {
-  font-family: 'redactedregular';
+.lipsum {
+  font-family: 'redacted-script', sans-serif;
 }
