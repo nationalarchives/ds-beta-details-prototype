@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+header {
+  margin-bottom: 1em;
+}
+
 .logo {
   margin-top: 2em;
   width: 4em;
@@ -12,17 +16,14 @@
 
 .content_block {
   outline: 1px solid #fff;
-  background-color: #dbe3f5;
+  background-color: #eff4ff;
+  margin-bottom: 0.3em;
+  padding: 1em 1.5em;
   position: relative;
   min-height: 3em;
 
-  span.label {
-    background-color: #696e78;
-    color: #fff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0 0.5em;
+  h2.label {
+    margin-top: 0;
   }
 
   a {
