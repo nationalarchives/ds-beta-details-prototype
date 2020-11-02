@@ -3,16 +3,26 @@
 {% include 'head.html' %}
 <body>
     {% include 'header.html' %}
+    {% include 'includes/catalogue_introduction.html' %}
+    {% include 'includes/breadcrumb.html' %}
     {% include 'includes/hierarchy.html' %}
     {% include 'includes/title.html' %}
-    {% include 'includes/summary.html' %}
+    {% include 'includes/reference.html' %}
+    {% include 'includes/date_series_held_by.html' %}
     {% include 'includes/image_viewer_call_to_action.html' %}
-    {% include 'includes/held_at.html' %}
     {% include 'includes/catalogue_description.html' %}
-    {% include 'includes/access_options.html' %}
-    {% include 'includes/where_am_i.html' %}
-    {% include 'includes/related_content.html' %}
-    {% include 'includes/browse_related_topics.html' %}
+    {% include 'includes/how_to_view_this_record.html' %}
+    {% include 'includes/possible_links_to_other_records.html' %}
+    {% include 'includes/help_with_finding_records.html' %}
+    {% include 'includes/browse.html' %}
+    {% include 'includes/explore_by_theme.html' %}
+    {% include 'includes/how_to_start_your_search.html' %}
+    {% include 'includes/explore_the_catalogue.html' %}
+    {% include 'includes/read_stories_from_the_archives.html' %}
+    {% include 'includes/related_research_guides.html' %}
+    {% include 'includes/did_you_know.html' %}
+    {% include 'includes/feedback.html' %}
+    {% include 'includes/help.html' %}
     {% block content %}
     {% endblock %}
     <script src="{{ url_for('static', filename='scripts/dist/index.js') }}"></script>

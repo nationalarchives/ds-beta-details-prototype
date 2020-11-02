@@ -14,6 +14,24 @@ header {
   width: 4em;
 }
 
+details {
+  &[open] {
+    background-color: #d6dae4;
+  }
+
+  li {
+    list-style-type: disc;
+  }
+
+  div {
+    padding: 0.5em;
+    background-color: #d6dae4;
+  }
+  *:last-child, p {
+    margin-bottom: 0;
+  }
+}
+
 .content_block {
   outline: 1px solid #fff;
   background-color: #eff4ff;
