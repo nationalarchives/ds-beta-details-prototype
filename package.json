@@ -6,7 +6,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp run && gulp"
+    "start": "gulp run && gulp",
+    "heroku-prebuild": "npm install",
+    "heroku-postbuild": "gulp run"
   },
   "keywords": [],
   "author": "",
