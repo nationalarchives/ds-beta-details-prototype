@@ -15,8 +15,13 @@ header {
 }
 
 details {
+  transition: all 200ms ease;
+}
+
+details {
   &[open] {
-    background-color: #d6dae4;
+    background-color: #ffffff;
+    padding: 1em;
   }
 
   li {
@@ -25,8 +30,8 @@ details {
 
   div {
     padding: 0.5em;
-    background-color: #d6dae4;
   }
+
   *:last-child, p {
     margin-bottom: 0;
   }
